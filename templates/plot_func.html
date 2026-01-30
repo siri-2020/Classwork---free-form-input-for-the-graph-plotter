@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find a Friend</title>
+    <style>
+        body { font-family: sans-serif; max-width: 600px; margin: 20px auto; padding: 20px; }
+        .box { border: 1px solid #ddd; padding: 15px; margin-bottom: 10px; border-radius: 5px; }
+        .highlight { background-color: #e8f5e9; border: 1px solid #4caf50; }
+        input, textarea { width: 100%; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+    <h1>Find a Friend for the Moment </h1>
+
+    <div class="box">
+        <form method="POST">
+            <label>Nickname:</label>
+            <input type="text" name="nickname" placeholder="ชื่อเล่น" required>
+            
+            <label>What's on your mind?:</label>
+            <textarea name="message" rows="3" placeholder="คิดอะไรอยู่?" required></textarea>
+            
+            <button type="submit">Find Friend</button>
+        </form>
+    </div>
+
+    {% if user_msg %}
+        <h3>Results for: "{{ user_msg }}"</h3>
+        
+        <div class="box highlight">
+            <strong>🤖 AI Recommendation:</strong><br>
+            {{ ai_comment }}
+        </div>
+
+        <h4>3 Top 3 Similar Matche:</h4>
+        {% for match in top_3 %}
+            <div class="box">
+                <strong>{{ match.nickname }}</strong> (Score: {{ "%.4f"|format(match.score) }})<br>
+                <em>"{{ match.text }}"</em>
+            </div>
+        {% endfor %}
+    {% endif %}
+
+</body>
+</html>

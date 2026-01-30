@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LLM Function Plotter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        form {
+            margin: 20px 0;
+        }
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            width: 400px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        img {
+            max-width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>AI Function Plotter</h1>
+    <p>Enter a natural language description of a mathematical function, and we'll plot it for you!</p>
+
+    <form method="POST">
+        <input type="text" name="expression" size="50"
+               placeholder="e.g. Please plot a sine wave" required>
+        <button type="submit">Plot</button>
+    </form>
+
+    {% if error %}
+        <p style="color: red;"><b>Error:</b> {{ error }}</p>
+    {% endif %}
+
+    {% if expr %}
+        <p><b>LLM Expression:</b> {{ expr }}</p>
+    {% endif %}
+
+    {% if plot_url %}
+        <img src="{{ plot_url }}" alt="Plot">
+    {% endif %}
+</body>
+</html>

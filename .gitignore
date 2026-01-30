@@ -1,0 +1,4 @@
+/static/plot*
+/.venv/
+/.venvmin/
+/.env

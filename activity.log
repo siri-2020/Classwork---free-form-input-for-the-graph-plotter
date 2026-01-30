@@ -1,0 +1,59 @@
+2026-01-28 12:12:07,674 - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2026-01-28 12:14:01,177 - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:15:39,966 - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:16:32,999 - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:16:33,257 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-01-28 12:16:33,257 - [33mPress CTRL+C to quit[0m
+2026-01-28 12:16:34,238 -  * Restarting with watchdog (fsevents)
+2026-01-28 12:16:35,261 - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:16:35,806 -  * Debugger is active!
+2026-01-28 12:16:35,812 -  * Debugger PIN: 208-192-609
+2026-01-28 12:16:52,741 - 127.0.0.1 - - [28/Jan/2026 12:16:52] "GET / HTTP/1.1" 200 -
+2026-01-28 12:16:52,825 - 127.0.0.1 - - [28/Jan/2026 12:16:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-28 12:17:15,354 - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:17:15,371 - New User: Fay | Msg: Idk
+2026-01-28 12:17:15,371 - Top-3: ['Peepat', 'Shin', 'Meg']
+2026-01-28 12:17:15,725 - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-28 12:17:15,730 - 127.0.0.1 - - [28/Jan/2026 12:17:15] "POST / HTTP/1.1" 200 -
+2026-01-28 12:18:53,857 - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:18:53,864 - New User: cheetah | Msg: I want to send reels to people
+2026-01-28 12:18:53,864 - Top-3: ['Focus', 'Arm', 'Cheetah']
+2026-01-28 12:18:54,593 - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-28 12:18:54,599 - 127.0.0.1 - - [28/Jan/2026 12:18:54] "POST / HTTP/1.1" 200 -
+2026-01-28 12:20:11,168 - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:20:11,176 - New User: shin | Msg: I am running a log bait deck with sparky. who could be my friend
+2026-01-28 12:20:11,176 - Top-3: ['Focus', 'Cheetah', 'Meg']
+2026-01-28 12:20:11,884 - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-28 12:20:11,889 - 127.0.0.1 - - [28/Jan/2026 12:20:11] "POST / HTTP/1.1" 200 -
+2026-01-28 12:20:45,062 - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:20:45,068 - New User: "I'm leading in my class leaderboard for clash royale mobile game, plan to train more and get a place in the competition team" | Msg: "I'm leading in my class leaderboard for clash royale mobile game, plan to train more and get a place in the competition team"
+2026-01-28 12:20:45,068 - Top-3: ['Focus', 'Cheetah', 'Meg']
+2026-01-28 12:20:46,086 - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-28 12:20:46,092 - 127.0.0.1 - - [28/Jan/2026 12:20:46] "POST / HTTP/1.1" 200 -
+2026-01-28 12:20:54,249 - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:20:54,256 - New User: 123 | Msg: "I'm leading in my class leaderboard for clash royale mobile game, plan to train more and get a place in the competition team"
+2026-01-28 12:20:54,256 - Top-3: ['"I\'m leading in my class leaderboard for clash royale mobile game, plan to train more and get a place in the competition team"', 'Focus', 'Cheetah']
+2026-01-28 12:20:55,201 - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-28 12:20:55,207 - 127.0.0.1 - - [28/Jan/2026 12:20:55] "POST / HTTP/1.1" 200 -
+2026-01-28 12:21:24,404 - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:21:24,413 - New User: khawfang | Msg: I want to be friend with sk. 
+2026-01-28 12:21:24,413 - Top-3: ['shin', 'Cheetah', 'Meg']
+2026-01-28 12:21:25,129 - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-28 12:21:25,134 - 127.0.0.1 - - [28/Jan/2026 12:21:25] "POST / HTTP/1.1" 200 -
+2026-01-28 12:21:45,376 - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:21:45,383 - New User: sk  | Msg: hi
+2026-01-28 12:21:45,383 - Top-3: ['Fay', 'Cheetah', 'khawfang']
+2026-01-28 12:21:46,401 - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-28 12:21:46,406 - 127.0.0.1 - - [28/Jan/2026 12:21:46] "POST / HTTP/1.1" 200 -
+2026-01-28 12:22:28,384 - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:22:28,391 - New User: sk2 | Msg: I want to be friend with khawfang
+2026-01-28 12:22:28,391 - Top-3: ['khawfang', 'shin', 'Cheetah']
+2026-01-28 12:22:28,894 - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-28 12:22:28,898 - 127.0.0.1 - - [28/Jan/2026 12:22:28] "POST / HTTP/1.1" 200 -
+2026-01-28 12:23:15,670 - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:23:15,686 - New User: 123 | Msg: "I'm leading in my class leaderboard for clash royale mobile game, plan to train more and get a place in the competition team"
+2026-01-28 12:23:15,686 - Top-3: ['"I\'m leading in my class leaderboard for clash royale mobile game, plan to train more and get a place in the competition team"', '123', 'Focus']
+2026-01-28 12:23:16,728 - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-28 12:23:16,734 - 127.0.0.1 - - [28/Jan/2026 12:23:16] "POST / HTTP/1.1" 200 -
+2026-01-30 12:40:32,795 - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
